@@ -5,4 +5,5 @@
 * 细节补充：
     *  [HTTP keep-alive、TCP Keep-Alive、心跳检测](https://blog.csdn.net/sslulu520/article/details/117980443)
     *  [TCP-based Postgres wire protocol.](https://developer.aliyun.com/article/751984)
+    *  [PostgreSQL部分源码解读](https://www.zhihu.com/column/c_1477948652627341312)
     
