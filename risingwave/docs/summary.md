@@ -3,6 +3,8 @@
 * 执行模式： 一共两种，分别为批处理模式和流处理模式
     *  批处理查询
          *  简单查询流程： 查询会被分为多个plan fragments中，且在不同的查询引擎中通用  
+         *  TableScan operator 用于从表中读取数据，Hive中也存在同样的命名
+         *  存储引擎：Hummock，用于存储内部状态,物化视图，以及表的信息，其中内部状态（internal state）用户是不可见的
     *  流处理查询
 * 细节补充：
     *  [HTTP keep-alive、TCP Keep-Alive、心跳检测](https://blog.csdn.net/sslulu520/article/details/117980443)
