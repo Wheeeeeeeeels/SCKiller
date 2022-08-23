@@ -11,7 +11,7 @@
     * Hummock是一个云原生基于LSM-Tree的存储引擎；提供了<key,value> api,并可以将所有数据存储到S3适配的服务上
     * Hummock并不是一个通用的<key,value>存储，而是与RisingWave流引擎共同设计的，并针对其进行优化的存储引擎
     * Hummock架构情况如下所示:
-    [](https://github.com/Wheeeeeeeeels/SCKiller/blob/main/risingwave/docs/images/Snipaste_2022-08-24_00-38-36.jpg)
+    ![](https://github.com/Wheeeeeeeeels/SCKiller/blob/main/risingwave/docs/images/Snipaste_2022-08-24_00-38-36.jpg)
     
 * 细节补充：
     *  [HTTP keep-alive、TCP Keep-Alive、心跳检测](https://blog.csdn.net/sslulu520/article/details/117980443)
