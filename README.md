@@ -15,5 +15,9 @@
    * TiDB
    * OceanBase
    * Flink
+   * HBase
+   * Hive
+   * Spark
+   * Impala
 
 
