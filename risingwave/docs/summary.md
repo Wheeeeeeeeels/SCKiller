@@ -19,8 +19,7 @@
     * Steaming state store 具有十分好的 workload特性：
         * 每个流执行器只会读写自己部分的数据，这些数据是连续不重复的键范围（在Risingwave里称为键空间）
         * 数据不会跨结点去共享，因此每个woker node只会读写它自己的数据，如果想要跨结点读取数据需要等待
-        * 流数据是串行提交的，基于的是（ barrier-based checkpoint 算法）（这里设计可以参考Flink）
-        * 
+        * 流数据是串行提交的，基于的是（ barrier-based checkpoint 算法）（这里设计可以参考Flink） 
     
 * 细节补充：
     *  [HTTP keep-alive、TCP Keep-Alive、心跳检测](https://blog.csdn.net/sslulu520/article/details/117980443)
