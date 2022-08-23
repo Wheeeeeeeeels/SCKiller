@@ -7,7 +7,10 @@
         * [tinykv](https://github.com/talent-plan/tinykv)
    * C++:
         * [ClickHouse](https://github.com/ClickHouse/ClickHouse)
-        
+   * others:
+        * LSM-Tree-based KV storage engines:
+             * RocksDB
+             * LevelDB
 
 
 * Game Engine
