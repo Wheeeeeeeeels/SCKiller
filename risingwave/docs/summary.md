@@ -4,10 +4,11 @@
     *  批处理查询
          *  简单查询流程： 查询会被分为多个plan fragments中，且在不同的查询引擎中通用  
          *  TableScan operator 用于从表中读取数据，Hive中也存在同样的命名
-         *  存储引擎：Hummock，用于存储内部状态,物化视图，以及表的信息，其中内部状态（internal state）用户是不可见的
+         *  存储引擎：Hummock，用于存储内部状态,物化视图（可以存储数据），以及表的信息，其中内部状态（internal state）用户是不可见的
     *  流处理查询
 * 细节补充：
     *  [HTTP keep-alive、TCP Keep-Alive、心跳检测](https://blog.csdn.net/sslulu520/article/details/117980443)
     *  [TCP-based Postgres wire protocol.](https://developer.aliyun.com/article/751984)
-    *  [PostgreSQL部分源码解读](https://www.zhihu.com/column/c_1477948652627341312)
+    *  [PostgreSQL部分源码解读](https://www.zhihu.com/column/c_1477948652627341312)、
+    *  [Material View]（https://blog.csdn.net/qq_37933018/article/details/120528245）
     
