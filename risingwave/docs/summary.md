@@ -19,7 +19,7 @@
     *  [HTTP keep-alive、TCP Keep-Alive、心跳检测](https://blog.csdn.net/sslulu520/article/details/117980443)
     *  [TCP-based Postgres wire protocol.](https://developer.aliyun.com/article/751984)
     *  [PostgreSQL部分源码解读](https://www.zhihu.com/column/c_1477948652627341312)、
-    *  [Material View]（https://blog.csdn.net/qq_37933018/article/details/120528245）
+    *  [Material View](https://blog.csdn.net/qq_37933018/article/details/120528245)
     
 
 
