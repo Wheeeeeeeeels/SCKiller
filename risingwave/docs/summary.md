@@ -6,6 +6,9 @@
          *  TableScan operator 用于从表中读取数据，Hive中也存在同样的命名
          *  存储引擎：Hummock，用于存储内部状态,物化视图（可以存储数据），以及表的信息，其中内部状态（internal state）用户是不可见的
     *  流处理查询
+         * 讲了一下kafka作为data source以及相关物化视图的东西
+* Hummock存储引擎
+    * Hummock是一个云原生基于LSM-Tree的存储引擎；提供了
 * 细节补充：
     *  [HTTP keep-alive、TCP Keep-Alive、心跳检测](https://blog.csdn.net/sslulu520/article/details/117980443)
     *  [TCP-based Postgres wire protocol.](https://developer.aliyun.com/article/751984)
