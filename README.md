@@ -19,8 +19,10 @@
    * Hive
    * Spark
    * Impala
-   * Basic
+   * 教程
       * [pg internal](http://www.interdb.jp/pg/index.html)
+      * [oceanbase seven days](https://developer.aliyun.com/article/993721)
 * Compiler
    * [Cpython](https://github.com/python/cpython)
+
 
