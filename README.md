@@ -15,7 +15,7 @@
    * Flink
         * [官方仓库](https://github.com/zhisheng17/flink-learning)
         * [Flink学习](https://github.com/zhisheng17/flink-learning)
-   * Presto
+   * [Presto](https://github.com/prestodb/presto)
    * Druid
    * Kylin
    * Hive
