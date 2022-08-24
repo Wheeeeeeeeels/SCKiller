@@ -15,7 +15,7 @@
     * Hummock架构情况如下所示:
     ![](https://github.com/Wheeeeeeeeels/SCKiller/blob/main/risingwave/docs/images/Snipaste_2022-08-24_00-38-36.jpg)
     * Hummock包含有一个管理服务在meta service上叫做HummockManager，作用是老大哥，而其他的小弟在woker nodes上（包括compute nodes,frontend nodes,compactor nodes）,同时有一个共享存储去存储文件
-    * 每当有一批货需要放到库里，小弟们（Hummock client）会上传这些货到shared storage中（阿里云中PolarDB也是如此设计），然而通知大哥（Hummock manager）来了一批货，之后会开始一系列流程，新的货会被放入，没有用的废料就会被丢弃，Hummock manager会负责整个货（具体而言是file）的周期
+    * 每当有一批货需要放到库里，小弟们（Hummock client）会上传这些货到shared storage中（阿里云中PolarDB也是如此设计），然后通知大哥（Hummock manager）来了一批货，之后会开始一系列流程，新的货会被放入，没有用的废料就会被丢弃，Hummock manager会负责整个货（具体而言是file）的周期
     * Steaming state store 具有十分好的 workload特性：
         * 每个流执行器只会读写自己部分的数据，这些数据是连续不重复的键范围（在Risingwave里称为键空间）
         * 数据不会跨结点去共享，因此每个woker node只会读写它自己的数据，如果想要跨结点读取数据需要等待
