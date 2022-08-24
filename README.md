@@ -17,12 +17,12 @@
         * [Flink学习](https://github.com/zhisheng17/flink-learning)
    * [Presto](https://github.com/prestodb/presto)
    * Druid
-   * Kylin
+   * [Kylin](https://github.com/apache/kylin)
    * Hive
-   * GreenPlum
-   * Doris
+   * [GreenPlum](https://github.com/xfg0218/greenplum--summarize)
+   * [Doris](https://github.com/apache/doris)
    * Iceberg
-   * PolarDB
+   * [PolarDB](https://github.com/ApsaraDB/PolarDB-for-PostgreSQL)
    * TiDB
    * OceanBase
    * Flink
